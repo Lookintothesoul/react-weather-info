@@ -1,0 +1,20 @@
+main {
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap:  8px;
+}
+
+select {
+    width:  100%;
+    padding: 8px;
+}
+
+.weather-section > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap:  8px;
+}

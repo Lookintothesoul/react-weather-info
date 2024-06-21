@@ -1,0 +1,31 @@
+.table_container {
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+    border-radius:8px;
+}
+
+table, th, td {
+    background: #fff;
+    border: 1px solid #555353;
+}
+
+table > thead > tr {
+    position: sticky;
+    top: 0;
+}
+
+table > tbody > tr > td:first-child,
+table > thead > tr > th:first-child{
+    position: sticky;
+    left: 0;
+}
+
+th, td {
+    padding: 8px;
+    white-space: nowrap;
+}
